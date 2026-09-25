@@ -1,0 +1,233 @@
+# 🚀 Startup Investment Analysis Dashboard
+
+## 📌 Project Overview
+
+This project focuses on analyzing startup investment and funding data to understand investment patterns across startups, industries, cities, investors, and investment types.
+
+The project uses **Python for data cleaning and analysis** and **Power BI for interactive dashboard visualization**.
+
+---
+
+## 🎯 Objective
+
+The main objectives of this project are:
+
+* Analyze startup investment trends.
+* Identify industries receiving high investment.
+* Identify highly funded startups.
+* Analyze investment distribution across different cities.
+* Understand different investment types.
+* Identify major investors by number of investments.
+* Analyze year-wise startup investment trends.
+* Create an interactive Power BI dashboard.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Google Colab**
+* **Power BI**
+* **Excel/CSV**
+
+---
+
+## 📂 Dataset
+
+### Dataset Used
+
+**Indian Startup Funding Dataset**
+
+The dataset contains information related to startup funding and investments.
+
+### Important Fields
+
+* Startup Name
+* Industry Vertical
+* City Location
+* Investors Name
+* Investment Type
+* Amount in USD
+* Funding Date
+
+> Note: The dataset is historical startup funding data and does not represent real-time investment activity.
+
+---
+
+## 🔄 Project Workflow
+
+### 1. Data Collection
+
+The Indian startup funding dataset was imported into Google Colab using Pandas.
+
+### 2. Data Cleaning
+
+The following preprocessing steps were performed:
+
+* Checked missing values.
+* Checked duplicate records.
+* Removed duplicate rows.
+* Removed completely empty rows.
+* Converted investment amount into numeric format.
+* Converted funding date into datetime format.
+* Created a Year column from the funding date.
+
+### 3. Exploratory Data Analysis
+
+The following analyses were performed:
+
+#### 💰 Investment Analysis
+
+* Total investment
+* Average investment
+* Maximum investment
+
+#### 🏭 Industry Analysis
+
+* Investment by industry
+* Top 10 industries by investment
+
+#### 🚀 Startup Analysis
+
+* Top 10 funded startups
+
+#### 📍 City Analysis
+
+* Investment distribution by city
+* Top 10 cities by startup investment
+
+#### 💼 Investment Type Analysis
+
+* Distribution of different investment types
+
+#### 👥 Investor Analysis
+
+* Top 10 investors by number of investments
+
+#### 📅 Year-wise Analysis
+
+* Startup investment trend over the years
+
+---
+
+## 📊 Power BI Dashboard
+
+### Dashboard Name
+
+**Startup Investment Analysis Dashboard**
+
+### Dashboard Components
+
+#### 1. Total Startups
+
+Shows the total number of unique startups in the dataset.
+
+#### 2. Total Investment
+
+Shows the total investment amount recorded in the dataset.
+
+#### 3. Average Investment
+
+Shows the average investment amount.
+
+#### 4. Top 10 Industries by Startup Investment
+
+A bar chart showing industries receiving the highest total investment.
+
+#### 5. Top 10 Funded Startups
+
+Shows startups with the highest total recorded investment.
+
+#### 6. Top 10 Cities by Startup Investment
+
+Shows cities with the highest startup investment.
+
+#### 7. Investment Type Distribution
+
+A donut chart showing the distribution of investment types.
+
+#### 8. Top 10 Investors
+
+Shows investors with the highest number of recorded investments.
+
+#### 9. Year-wise Startup Investment Trend
+
+Shows how startup investment changed across years.
+
+---
+
+## 📁 Project Structure
+
+```text
+Task-15-Startup-Investment-Analysis/
+│
+├── Startup_Investment_Cleaned.csv
+├── Task_15_Startup_Investment.ipynb
+├── Startup_Investment_Analysis.pbix
+└── README.md
+```
+
+---
+
+## 📈 Key Analysis Performed
+
+The project provides insights into:
+
+* Startup funding patterns
+* Industry-wise investment
+* City-wise investment concentration
+* Highly funded startups
+* Investment type preferences
+* Major investors
+* Historical funding trends
+
+These analyses can help understand the structure and patterns of startup investments.
+
+---
+
+## 💡 Conclusion
+
+The Startup Investment Analysis project demonstrates how startup funding data can be cleaned, analyzed, and transformed into meaningful business insights.
+
+Python was used for data preprocessing and exploratory analysis, while Power BI was used to create an interactive dashboard for visualizing startup investment patterns.
+
+The dashboard provides a consolidated view of startups, investment amounts, industries, cities, investors, investment types, and funding trends.
+
+---
+
+## ⚠️ Limitations
+
+* The dataset represents historical funding records.
+* Some records may contain missing values.
+* Investment amounts may not be available for every funding record.
+* The analysis depends on the information available in the dataset.
+* The dashboard should not be interpreted as real-time startup investment data.
+* Investment amounts and investor information may contain inconsistencies in the original dataset.
+
+---
+
+## 🔮 Future Improvements
+
+Future versions of this project can include:
+
+* Real-time startup funding data.
+* Machine learning for investment prediction.
+* Startup success prediction.
+* Investor recommendation system.
+* Industry growth forecasting.
+* Advanced Power BI drill-through pages.
+* Geographic maps for startup funding.
+* Time-series forecasting of future investments.
+
+---
+
+## 👩‍💻 Author
+
+**Dhanashri Dhaygude**
+
+B.Tech Computer Science Engineering
+
+**Project:** Startup Investment Analysis Dashboard
